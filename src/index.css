@@ -11,7 +11,7 @@
 :root {
   --color-bg: white;
   /* --color-bg-varaint: rgba(255, 255, 255, 0.6); */
-  --color-primary: #5bb5a2;
+  --color-primary: #001051;
   --color-primary-variant: #e8f2ee;
   --color-black: black;
   --color-light: rgba(255, 255, 255, 0.6);
@@ -52,8 +52,17 @@ h5 {
   font-weight: 600;
 }
 
+p {
+  font-family: General Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 h1 {
-  font-size: 70px;
+  font-size: 60px;
+  color: var(--color-primary);
 }
 
 section {

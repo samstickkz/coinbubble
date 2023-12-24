@@ -32,7 +32,7 @@ const NavbarComponent = () => {
         </div>
 
         <div className="r-btn">
-          <small className=""> </small>
+          <small className="">samuel joseph is a big man </small>
           <button className=""></button>
         </div>
       </div>
