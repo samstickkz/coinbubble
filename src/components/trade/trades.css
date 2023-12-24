@@ -1,0 +1,52 @@
+.para,
+.trade,
+#tradesec,
+.trade_down,
+.trade_up,
+.td_row,
+h2,
+h4,
+p {
+  background: white;
+}
+
+.trade_down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+}
+
+.tdt {
+  font-family: General Sans;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.ptext {
+  font-family: General Sans;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.h4t {
+  font-family: General Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.para {
+  margin-top: 24px;
+}
+
+#tradesec {
+  margin-top: 24px;
+}
