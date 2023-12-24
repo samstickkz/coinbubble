@@ -12,23 +12,35 @@
   &:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background: transparent;
   }
 }
 
 .homeh1 {
-  color: ;
+  background: transparent;
 }
 
 .homepagec {
   display: flex;
   justify-content: space-between;
+  background: transparent;
 }
 
 .home_right {
   height: 712px;
   width: 668px;
+  background: transparent;
 }
 
 .home_left {
   margin-top: 100px;
+  background: transparent;
+}
+
+#homepage {
+  background: transparent;
+}
+
+img {
+  background: transparent;
 }

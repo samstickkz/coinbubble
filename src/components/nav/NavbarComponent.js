@@ -1,20 +1,14 @@
 import React from "react";
-//import nav css file
 import "./nav.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "./../../assets/logo.png"; //
+import logo from "./../../assets/logo.png";
 
 const NavbarComponent = () => {
   return (
     <nav className="container navcon">
       <div className="navbar">
         <div className="logo">
-          <img
-            src={logo}
-            // height="30"
-
-            alt="CoinBubble Logo"
-          />
+          <img src={logo} alt="CoinBubble Logo" />
         </div>
 
         <div className="navcenter">
@@ -32,7 +26,8 @@ const NavbarComponent = () => {
         </div>
 
         <div className="r-btn">
-          <small className="">samuel joseph is a big man </small>
+          <small className=""></small>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <button className=""></button>
         </div>
       </div>
