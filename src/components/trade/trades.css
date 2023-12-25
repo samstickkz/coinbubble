@@ -47,6 +47,10 @@ p {
   margin-top: 24px;
 }
 
+.trade_up {
+  /* background: white;
+  margin-top: 90px; */
+}
 #tradesec {
-  margin-top: 24px;
+  background: white;
 }
