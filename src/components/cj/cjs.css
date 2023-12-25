@@ -1,0 +1,50 @@
+/* Cjs.css */
+.feat {
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1031px;
+  margin-top: 88px;
+}
+
+.dashed-line {
+  background: none;
+  border: 1px solid #bababa;
+  border-style: dashed;
+  border-width: 1px; /* Adjust the thickness of the dashed line */
+  margin: 10px; /* Adjust the margin between the images and dashed lines */
+  width: 20%;
+}
+
+.refn {
+  background: none;
+  width: 91px;
+  height: 91px;
+}
+
+.hoimg {
+  background: none;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: none;
+}
+
+.crypto-journey-title {
+  background: none;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px; /* Adjust the spacing between title and images */
+}
+
+.cjt {
+  background: none;
+}

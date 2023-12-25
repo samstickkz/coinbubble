@@ -4,6 +4,7 @@ import Homepage from "./components/homepage/homepage.jsx";
 import Trade from "./components/trade/trade.jsx";
 import Portfolio from "./components/portfolio/portfolio.jsx";
 import Bnsell from "./components/bnsell/bnsell.jsx";
+import Cj from "./components/cj/cj.jsx";
 
 const app = () => {
   return (
@@ -13,6 +14,7 @@ const app = () => {
       <Trade />
       <Portfolio />
       <Bnsell />
+      <Cj />
     </>
   );
 };
