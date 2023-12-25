@@ -51,3 +51,11 @@
 .sbg {
   background: none;
 }
+
+.lined {
+  margin-top: 72px;
+  background: #ebebeb;
+
+  height: 1px;
+  width: 1031px;
+}
