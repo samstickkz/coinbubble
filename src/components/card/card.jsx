@@ -19,6 +19,7 @@ function card() {
               <p>your money is protected</p>
               <p>your money is protected</p>
             </div>
+            {/* <div className="lm">Learn More</div> */}
           </div>
           <img src={Cardimg} className="card-con" />
         </div>
