@@ -15,6 +15,7 @@
   border-width: 1px; /* Adjust the thickness of the dashed line */
   margin: 10px; /* Adjust the margin between the images and dashed lines */
   width: 20%;
+  margin-bottom: 150px;
 }
 
 .refn {
@@ -25,6 +26,10 @@
 
 .hoimg {
   background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main {
@@ -47,4 +52,32 @@
 
 .cjt {
   background: none;
+}
+
+.feat-box {
+  background: none;
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.feat-title {
+  background: none;
+  font-family: General Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.feat-desc {
+  font-family: General Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
 }

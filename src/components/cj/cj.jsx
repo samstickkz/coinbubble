@@ -16,14 +16,33 @@ function CJ() {
         <div className="feat">
           <div className="hoimg">
             <img src={Ref} alt="Reference" className="refn" />
+            <div className="feat-box">
+              <h3 className="feat-title">Create an account</h3>
+              <p className="feat-desc">
+                Choose the right account type and verify your identity.
+              </p>
+            </div>
           </div>
           <div className="dashed-line horizontal"></div>
           <div className="hoimg">
             <img src={Ref} alt="Reference" className="refn" />
+
+            <div className="feat-box">
+              <h3 className="feat-title">Create an account</h3>
+              <p className="feat-desc">
+                Choose the right account type and verify your identity.
+              </p>
+            </div>
           </div>
           <div className="dashed-line horizontal"></div>
           <div className="hoimg">
-            <img src={Ref} alt="Reference" className="refn" />
+            <img src={Ref} alt="Reference" className="refn" />{" "}
+            <div className="feat-box">
+              <h3 className="feat-title">Create an account</h3>
+              <p className="feat-desc">
+                Choose the right account type and verify your identity.
+              </p>
+            </div>
           </div>
         </div>
       </div>
