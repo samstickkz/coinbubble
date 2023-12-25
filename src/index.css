@@ -72,7 +72,9 @@ h1 {
 }
 
 section {
-  /* margin-top: 8rem; */
+  padding-top: 8rem;
+  margin-top: 8rem, red;
+  background: white;
 }
 
 section > h2,
@@ -132,6 +134,7 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+  background: transparent;
 }
 
 /* ==== medium devices*/

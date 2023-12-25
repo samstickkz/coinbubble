@@ -1,0 +1,88 @@
+/* General styling for the main container */
+.port {
+  display: flex;
+  background: white;
+}
+
+/* Styling for the left column */
+.port_left {
+  width: 530px;
+  height: 600px;
+  margin-left: 5%;
+  margin-top: 22px;
+  background: none;
+}
+
+/* Styling for the right column */
+.port_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    #cce3ff -4.44%,
+    rgba(201, 225, 253, 0) 100%
+  );
+  width: 814px;
+  height: 946px;
+}
+
+/* Styling for the portfolio image */
+.portimg {
+  width: 322px;
+  height: 696px;
+  border-radius: 31px;
+  border: 10px solid; /* Specify border style */
+}
+
+/* Styling for the blue line */
+.lnblue {
+  width: 5px;
+  height: 126px;
+  background: #224cf8;
+}
+
+/* Styling for the container of the blue line and content */
+.ln {
+  background: none;
+  display: flex;
+}
+
+/* Styling for the content block */
+.contb {
+  background: none;
+  font-family: "General Sans";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 40px;
+}
+
+/* Styling for the top margin of the content */
+.ptl {
+  margin-top: 51px;
+  background: none;
+}
+
+/* Styling for the paragraph inside the content block */
+.portp {
+  font-family: "General Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: none;
+}
+
+/* Styling for the heading inside the content block */
+.hport {
+  background: none;
+}
+
+/* Styling for the container of the content blocks on the right */
+.rightport {
+  background: none;
+}
