@@ -10,7 +10,7 @@
 }
 
 .card-con {
-  width: 1027px;
+  width: 900px;
   height: 674px;
   float: right;
 }
@@ -27,6 +27,9 @@
 
 .card-text {
   color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 
 .bxh {
@@ -39,4 +42,9 @@
 .tt {
   margin-top: 77px;
   background: transparent;
+}
+.pt {
+  margin-top: 49px;
+  background: transparent;
+  color: white;
 }

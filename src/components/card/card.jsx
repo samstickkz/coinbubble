@@ -14,6 +14,11 @@ function card() {
               Lorem ipsum dolor sit amet consectetur. Ornare facilisi tempus
               feugiat ornare pretium. Justo{" "}
             </p>
+
+            <div className="pt">
+              <p>your money is protected</p>
+              <p>your money is protected</p>
+            </div>
           </div>
           <img src={Cardimg} className="card-con" />
         </div>
