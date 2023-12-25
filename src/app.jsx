@@ -5,6 +5,7 @@ import Trade from "./components/trade/trade.jsx";
 import Portfolio from "./components/portfolio/portfolio.jsx";
 import Bnsell from "./components/bnsell/bnsell.jsx";
 import Cj from "./components/cj/cj.jsx";
+import Cards from "./components/card/card.jsx";
 
 const app = () => {
   return (
@@ -15,6 +16,7 @@ const app = () => {
       <Portfolio />
       <Bnsell />
       <Cj />
+      <Cards />
     </>
   );
 };

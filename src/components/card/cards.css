@@ -1,0 +1,42 @@
+.card-box {
+  width: 100%;
+  background: #000519;
+  /* background: red; */
+
+  height: 674px;
+}
+
+#card {
+}
+
+.card-con {
+  width: 1027px;
+  height: 674px;
+  float: right;
+}
+.card-title {
+  font-family: General Sans;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: transparent;
+  color: white;
+}
+
+.card-text {
+  color: white;
+}
+
+.bxh {
+  background: transparent;
+  margin-top: 77px;
+  margin-left: 93px;
+  display: flex;
+}
+
+.tt {
+  margin-top: 77px;
+  background: transparent;
+}
