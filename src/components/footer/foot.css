@@ -25,6 +25,7 @@
 .sub-logos {
   display: flex;
   flex-direction: column;
+  background: none;
 }
 
 .sub-logo {
@@ -53,5 +54,22 @@ h4 {
 
 p {
   font-size: 14px;
+  background: none;
+}
+.ftsmall {
+  background: none;
+  margin: 24px 0;
+}
+
+.ftlogo {
+  display: flex;
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+  background: none;
+  justify-content: space-between;
+}
+
+.lgn {
   background: none;
 }
