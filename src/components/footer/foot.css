@@ -11,7 +11,7 @@
 
 .column {
   flex: 1;
-  margin-right: 20px;
+  margin-right: 10px;
   background: none;
 }
 
@@ -44,17 +44,18 @@ ul {
 ul li {
   margin-bottom: 8px;
   background: none;
+  font-size: 0.8rem;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 0.8rem;
   margin-bottom: 10px;
   background: none;
 }
 
 p {
-  font-size: 14px;
   background: none;
+  font-size: 0.8rem;
 }
 .ftsmall {
   background: none;
@@ -72,4 +73,9 @@ p {
 
 .lgn {
   background: none;
+  color: #4a3aff;
+}
+
+.lg {
+  margin-right: 80px;
 }

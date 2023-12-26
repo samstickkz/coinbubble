@@ -12,7 +12,7 @@ function footer() {
   return (
     <section>
       <footer className="footer">
-        <div className="column">
+        <div className="column lg">
           <img src={Logo} alt="CoinBubble Logo" className="logo" />
 
           <div className="sub-logos">
@@ -24,7 +24,7 @@ function footer() {
               <FaFacebook className="lgn" />
               <FaTwitter className="lgn" />
               <FaInstagramSquare className="lgn" />
-              <FaLinkedin />
+              <FaLinkedin className="lgn" />
               <IoLogoYoutube className="lgn" />
             </div>
             {/* Add more as needed */}
@@ -45,6 +45,9 @@ function footer() {
           <ul>
             <li>About Us</li>
             <li>Team</li>
+            <li>Contact Us</li>
+            <li>Career</li>
+            <li>Blog</li>
             {/* Add more company-related links as needed */}
           </ul>
         </div>
@@ -52,15 +55,16 @@ function footer() {
         <div className="column">
           <h4>Support</h4>
           <ul>
-            <li>Contact Us</li>
-            <li>FAQs</li>
+            <li>Help Center</li>
+            <li>Report a bug</li>
+            <li>Bounty</li>
             {/* Add more support-related links as needed */}
           </ul>
         </div>
 
         <div className="column">
           <h4>Footer</h4>
-          <p>© 2023 Your Company Name. All Rights Reserved.</p>
+          <small>© 2023 Your Company Name. All Rights Reserved.</small>
         </div>
       </footer>
     </section>
