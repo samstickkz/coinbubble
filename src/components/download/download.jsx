@@ -18,7 +18,7 @@ function download() {
           <img src={Vector2} className="dwlogo" />
         </div>
 
-        <img src={Vector3} className="dwapp" />
+        <img src={Vector3} className="dwapp" loading="lazy" />
       </div>
       ;
     </section>

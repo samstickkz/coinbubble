@@ -7,6 +7,7 @@ import Bnsell from "./components/bnsell/bnsell.jsx";
 import Cj from "./components/cj/cj.jsx";
 import Cards from "./components/card/card.jsx";
 import Download from "./components/download/download.jsx";
+import Foot from "./components/footer/footer.jsx";
 
 const app = () => {
   return (
@@ -19,6 +20,7 @@ const app = () => {
       <Cj />
       <Cards />
       <Download />
+      <Foot />
     </>
   );
 };

@@ -34,7 +34,12 @@ function Portfolio() {
         </div>
 
         <div className="port_right">
-          <img src={Portimg} className="portimg" alt="Portfolio Image" />
+          <img
+            src={Portimg}
+            className="portimg"
+            alt="Portfolio Image"
+            loading="lazy"
+          />
         </div>
       </div>
     </section>

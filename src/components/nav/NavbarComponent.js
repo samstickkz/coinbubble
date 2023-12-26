@@ -8,7 +8,7 @@ const NavbarComponent = () => {
     <nav className="container navcon">
       <div className="navbar">
         <div className="logo">
-          <img src={logo} alt="CoinBubble Logo" />
+          <img src={logo} alt="CoinBubble Logo" loading="lazy" />
         </div>
 
         <div className="navcenter">

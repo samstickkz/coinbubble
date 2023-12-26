@@ -25,7 +25,7 @@ const Homepage = () => {
         </div>
 
         <div className="home_right">
-          <img src={homephone} />
+          <img src={homephone} loading="lazy" />
         </div>
       </div>
     </section>

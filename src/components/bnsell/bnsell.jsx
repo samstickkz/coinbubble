@@ -100,8 +100,6 @@ function bnsell() {
             <small className="sbg">$12,000</small>
           </div>
         </div>
-
-        <div className="lined"></div>
       </div>
     </section>
   );
