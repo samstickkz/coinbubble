@@ -6,6 +6,7 @@ import Portfolio from "./components/portfolio/portfolio.jsx";
 import Bnsell from "./components/bnsell/bnsell.jsx";
 import Cj from "./components/cj/cj.jsx";
 import Cards from "./components/card/card.jsx";
+import Download from "./components/download/download.jsx";
 
 const app = () => {
   return (
@@ -17,6 +18,7 @@ const app = () => {
       <Bnsell />
       <Cj />
       <Cards />
+      <Download />
     </>
   );
 };

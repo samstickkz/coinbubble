@@ -1,0 +1,33 @@
+.dw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* height: 100vh; */
+}
+
+.dwh {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: transparent;
+  color: #000742;
+}
+
+.dwlogo {
+  width: 212.42px;
+  height: 62.76px;
+  margin-top: 25.1px;
+}
+.ddw {
+  gap: 1rem;
+  display: flex;
+}
+
+.dwapp {
+  margin-top: 75.5px;
+  width: 1083px;
+}
+.sdw {
+  background: transparent;
+}
