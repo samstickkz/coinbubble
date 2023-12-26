@@ -10,7 +10,7 @@ import { IoLogoYoutube } from "react-icons/io5";
 
 function footer() {
   return (
-    <section>
+    <section id="hlop">
       <footer className="footer">
         <div className="column lg">
           <img src={Logo} alt="CoinBubble Logo" className="logo" />
@@ -63,10 +63,25 @@ function footer() {
         </div>
 
         <div className="column">
-          <h4>Footer</h4>
-          <small>© 2023 Your Company Name. All Rights Reserved.</small>
+          <h4>Contact Us</h4>
+          <ul>
+            <li>© 2023 Your Company Name. All Rights Reserved.</li>
+            <li>win@coinubble.com</li>
+            <li>+2347032346910</li>
+          </ul>
         </div>
+
+        {/* horizontal line*/}
       </footer>
+      <div className="hlo"></div>
+      <div className="hloup">
+        <small className="hlpbg">Copyright © 2024 Coinbubblr</small>
+        <small className="hlpbg">
+          All Rights Reserved |{" "}
+          <span className="spc">Terms and Conditions</span> |{" "}
+          <span className="spc">Privacy Policy</span>
+        </small>
+      </div>
     </section>
   );
 }

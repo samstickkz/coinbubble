@@ -79,3 +79,38 @@ p {
 .lg {
   margin-right: 80px;
 }
+
+.hlo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d9dbe9;
+  border-radius: 50%;
+
+  width: 90%;
+  height: 2px;
+  margin: 0 auto; /* Center the line horizontally */
+}
+
+#hlop {
+}
+
+.hloup {
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90%;
+  height: 67px;
+  margin: 0 auto; /* Center the line horizontally */
+}
+
+.hlpbg {
+  background: none;
+  color: #6f6c90;
+}
+.spc {
+  color: #4a3aff;
+  background: none;
+}
