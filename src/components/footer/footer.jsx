@@ -11,6 +11,7 @@ import { IoLogoYoutube } from "react-icons/io5";
 function footer() {
   return (
     <section id="hlop">
+      <div className="hlo"></div>
       <footer className="footer">
         <div className="column lg">
           <img src={Logo} alt="CoinBubble Logo" className="logo" />
