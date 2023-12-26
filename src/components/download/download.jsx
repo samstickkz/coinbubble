@@ -6,7 +6,7 @@ import Vector3 from "./../../assets/vector3.png";
 
 function download() {
   return (
-    <section className="sdw">
+    <section id="sdw">
       <div className="dw">
         <h2 className="dwh">
           Get the most out of <br /> your crypto

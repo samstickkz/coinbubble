@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* height: 100vh; */
+  background: transparent;
 }
 
 .dwh {
@@ -18,16 +18,22 @@
   width: 212.42px;
   height: 62.76px;
   margin-top: 25.1px;
+  background: none;
 }
 .ddw {
   gap: 1rem;
   display: flex;
+  background: none;
 }
 
 .dwapp {
   margin-top: 75.5px;
   width: 1083px;
 }
-.sdw {
-  background: transparent;
+#sdw {
+  background: linear-gradient(
+    160deg,
+    #cde4ff 1.64%,
+    rgba(251, 251, 251, 0) 79.19%
+  );
 }
