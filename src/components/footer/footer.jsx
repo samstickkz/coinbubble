@@ -2,6 +2,11 @@ import React from "react";
 import Foot from "./foot.css";
 import Logo from "./../../assets/logo.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { IoLogoYoutube } from "react-icons/io5";
 
 function footer() {
   return (
@@ -13,20 +18,19 @@ function footer() {
           className="logo"
           effect="blur"
         />
+        Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam
         <div className="sub-logos">
           {/* Additional CoinBubble logos can be added here */}
-          <LazyLoadImage
-            src={Logo}
-            alt="CoinBubble Logo"
-            className="sub-logo"
-            effect="blur"
-          />
-          <LazyLoadImage
-            src={Logo}
-            alt="CoinBubble Logo"
-            className="sub-logo"
-            effect="blur"
-          />
+          <small>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam
+          </small>
+          <div>
+            <FaFacebook />
+            <FaTwitter />
+            <FaInstagramSquare />
+            <FaLinkedin />
+            <IoLogoYoutube />
+          </div>
           {/* Add more as needed */}
         </div>
       </div>
@@ -34,8 +38,8 @@ function footer() {
       <div className="column">
         <h4>Product</h4>
         <ul>
-          <li>Feature 1</li>
-          <li>Feature 2</li>
+          <li>Buy & Sell</li>
+          <li>Cards</li>
           {/* Add more features as needed */}
         </ul>
       </div>

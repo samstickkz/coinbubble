@@ -4,19 +4,22 @@
   display: flex;
   justify-content: space-around;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 120px;
   color: #333;
+  background: none;
 }
 
 .column {
   flex: 1;
   margin-right: 20px;
+  background: none;
 }
 
 .logo {
   width: 100px;
   height: auto;
   margin-bottom: 10px;
+  background: none;
 }
 
 .sub-logos {
@@ -28,22 +31,27 @@
   width: 80px;
   height: auto;
   margin-bottom: 5px;
+  background: none;
 }
 
 ul {
+  background: none;
   list-style-type: none;
   padding: 0;
 }
 
 ul li {
   margin-bottom: 8px;
+  background: none;
 }
 
 h4 {
   font-size: 18px;
   margin-bottom: 10px;
+  background: none;
 }
 
 p {
   font-size: 14px;
+  background: none;
 }
