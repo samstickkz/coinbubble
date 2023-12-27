@@ -12,17 +12,21 @@ const NavbarComponent = () => {
         </div>
 
         <div className="navcenter">
-          <a href="default.asp" className="navsp">
-            Features
-          </a>
-
+          <select name="cars" id="cars">
+            <option value="volvo">Features</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
           <a href="news.asp" className="navsp">
             Company
-          </a>
-
-          <a href="contact.asp" className="navsp">
-            Support
-          </a>
+          </a>{" "}
+          <select name="cars" id="cars">
+            <option value="volvo">Company</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
         </div>
 
         <div className="r-btn">
