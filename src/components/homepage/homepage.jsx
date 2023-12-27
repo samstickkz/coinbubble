@@ -1,6 +1,6 @@
 import React from "react";
-import android from "./../../assets/andriod.png";
-import ios from "./../../assets/ios.png";
+import and from "./../../assets/and.png";
+import andios from "./../../assets/andios.png";
 import cbbhome from "./cbbhome.css";
 import homephone from "./../../assets/homephone.png";
 
@@ -12,15 +12,15 @@ const Homepage = () => {
           <h1 className="homeh1">
             Make crypto your <br /> superpower
           </h1>
-          <p>
+          <small className="hss">
             Lorem ipsum dolor sit amet consectetur. At cursus diam <br />{" "}
             sagittis maecenas. Aliquam ultricies tristique augue <br /> pulvinar
             tristique auctor.
-          </p>
+          </small>
 
           <div className="home_btn">
-            <img src={android} />
-            <img src={ios} />
+            <img src={and} />
+            <img src={andios} />
           </div>
         </div>
 
