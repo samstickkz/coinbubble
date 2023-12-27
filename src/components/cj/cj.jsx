@@ -5,48 +5,46 @@ import Cjs from "./cjs.css"; // Assuming this is the correct import path for you
 
 function CJ() {
   return (
-    <section id="scj">
-      <div className="main">
-        <div className="cjt">
-          <h2 className="crypto-journey-title">
-            Starting your crypto journey <br /> in easy steps
-          </h2>
+    <div className="main">
+      <div className="cjt">
+        <h2 className="crypto-journey-title">
+          Starting your crypto journey <br /> in easy steps
+        </h2>
+      </div>
+
+      <div className="feat">
+        <div className="hoimg">
+          <img src={Ref} alt="Reference" className="refn" />
+          <div className="feat-box">
+            <h3 className="feat-title">Create an account</h3>
+            <small className="feat-desc">
+              Choose the right account type and verify your identity.
+            </small>
+          </div>
         </div>
+        <div className="dashed-line horizontal"></div>
+        <div className="hoimg">
+          <img src={Ref} alt="Reference" className="refn" />
 
-        <div className="feat">
-          <div className="hoimg">
-            <img src={Ref} alt="Reference" className="refn" />
-            <div className="feat-box">
-              <h3 className="feat-title">Create an account</h3>
-              <p className="feat-desc">
-                Choose the right account type and verify your identity.
-              </p>
-            </div>
+          <div className="feat-box">
+            <h3 className="feat-title">Create an account</h3>
+            <small className="feat-desc">
+              Choose the right account type and verify your identity.
+            </small>
           </div>
-          <div className="dashed-line horizontal"></div>
-          <div className="hoimg">
-            <img src={Ref} alt="Reference" className="refn" />
-
-            <div className="feat-box">
-              <h3 className="feat-title">Create an account</h3>
-              <p className="feat-desc">
-                Choose the right account type and verify your identity.
-              </p>
-            </div>
-          </div>
-          <div className="dashed-line horizontal"></div>
-          <div className="hoimg">
-            <img src={Ref} alt="Reference" className="refn" />{" "}
-            <div className="feat-box">
-              <h3 className="feat-title">Create an account</h3>
-              <p className="feat-desc">
-                Choose the right account type and verify your identity.
-              </p>
-            </div>
+        </div>
+        <div className="dashed-line horizontal"></div>
+        <div className="hoimg">
+          <img src={Ref} alt="Reference" className="refn" />{" "}
+          <div className="feat-box">
+            <h3 className="feat-title">Create an account</h3>
+            <small className="feat-desc">
+              Choose the right account type and verify your identity.
+            </small>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

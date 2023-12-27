@@ -8,6 +8,9 @@ import Cj from "./components/cj/cj.jsx";
 import Cards from "./components/card/card.jsx";
 import Download from "./components/download/download.jsx";
 import Foot from "./components/footer/footer.jsx";
+import ReactGA from "react-ga";
+ReactGA.initialize("G-X4W820CCKX");
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const app = () => {
   return (
