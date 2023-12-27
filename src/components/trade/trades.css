@@ -54,3 +54,18 @@ p {
 #tradesec {
   background: white;
 }
+.ch {
+  width: 49.06px;
+  height: 49.06px;
+  background: rgba(231, 244, 253, 1);
+  border-radius: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: rgba(34, 76, 248, 1);
+}
+
+.chb {
+  background: none;
+}
